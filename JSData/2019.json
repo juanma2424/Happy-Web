@@ -1,0 +1,1565 @@
+﻿[
+	{
+		"Rank": "1",
+		"Country or region": "Finland",
+		"Happiness Score": "7.769",
+		"GDP per capita": "1.340",
+		"Healthy life expectancy": "0.986",
+		"Freedom": "0.596",
+		"Perceptions of corruption": "0.393",
+		"": ""
+	},
+	{
+		"Rank": "2",
+		"Country or region": "Denmark",
+		"Happiness Score": "7.600",
+		"GDP per capita": "1.383",
+		"Healthy life expectancy": "0.996",
+		"Freedom": "0.592",
+		"Perceptions of corruption": "0.410",
+		"": ""
+	},
+	{
+		"Rank": "3",
+		"Country or region": "Norway",
+		"Happiness Score": "7.554",
+		"GDP per capita": "1.488",
+		"Healthy life expectancy": "1.028",
+		"Freedom": "0.603",
+		"Perceptions of corruption": "0.341",
+		"": ""
+	},
+	{
+		"Rank": "4",
+		"Country or region": "Iceland",
+		"Happiness Score": "7.494",
+		"GDP per capita": "1.380",
+		"Healthy life expectancy": "1.026",
+		"Freedom": "0.591",
+		"Perceptions of corruption": "0.118",
+		"": ""
+	},
+	{
+		"Rank": "5",
+		"Country or region": "Netherlands",
+		"Happiness Score": "7.488",
+		"GDP per capita": "1.396",
+		"Healthy life expectancy": "0.999",
+		"Freedom": "0.557",
+		"Perceptions of corruption": "0.298",
+		"": ""
+	},
+	{
+		"Rank": "6",
+		"Country or region": "Switzerland",
+		"Happiness Score": "7.480",
+		"GDP per capita": "1.452",
+		"Healthy life expectancy": "1.052",
+		"Freedom": "0.572",
+		"Perceptions of corruption": "0.343",
+		"": ""
+	},
+	{
+		"Rank": "7",
+		"Country or region": "Sweden",
+		"Happiness Score": "7.343",
+		"GDP per capita": "1.387",
+		"Healthy life expectancy": "1.009",
+		"Freedom": "0.574",
+		"Perceptions of corruption": "0.373",
+		"": ""
+	},
+	{
+		"Rank": "8",
+		"Country or region": "New Zealand",
+		"Happiness Score": "7.307",
+		"GDP per capita": "1.303",
+		"Healthy life expectancy": "1.026",
+		"Freedom": "0.585",
+		"Perceptions of corruption": "0.380",
+		"": ""
+	},
+	{
+		"Rank": "9",
+		"Country or region": "Canada",
+		"Happiness Score": "7.278",
+		"GDP per capita": "1.365",
+		"Healthy life expectancy": "1.039",
+		"Freedom": "0.584",
+		"Perceptions of corruption": "0.308",
+		"": ""
+	},
+	{
+		"Rank": "10",
+		"Country or region": "Austria",
+		"Happiness Score": "7.246",
+		"GDP per capita": "1.376",
+		"Healthy life expectancy": "1.016",
+		"Freedom": "0.532",
+		"Perceptions of corruption": "0.226",
+		"": ""
+	},
+	{
+		"Rank": "11",
+		"Country or region": "Australia",
+		"Happiness Score": "7.228",
+		"GDP per capita": "1.372",
+		"Healthy life expectancy": "1.036",
+		"Freedom": "0.557",
+		"Perceptions of corruption": "0.290",
+		"": ""
+	},
+	{
+		"Rank": "12",
+		"Country or region": "Costa Rica",
+		"Happiness Score": "7.167",
+		"GDP per capita": "1.034",
+		"Healthy life expectancy": "0.963",
+		"Freedom": "0.558",
+		"Perceptions of corruption": "0.093",
+		"": ""
+	},
+	{
+		"Rank": "13",
+		"Country or region": "Israel",
+		"Happiness Score": "7.139",
+		"GDP per capita": "1.276",
+		"Healthy life expectancy": "1.029",
+		"Freedom": "0.371",
+		"Perceptions of corruption": "0.082",
+		"": ""
+	},
+	{
+		"Rank": "14",
+		"Country or region": "Luxembourg",
+		"Happiness Score": "7.090",
+		"GDP per capita": "1.609",
+		"Healthy life expectancy": "1.012",
+		"Freedom": "0.526",
+		"Perceptions of corruption": "0.316",
+		"": ""
+	},
+	{
+		"Rank": "15",
+		"Country or region": "United Kingdom",
+		"Happiness Score": "7.054",
+		"GDP per capita": "1.333",
+		"Healthy life expectancy": "0.996",
+		"Freedom": "0.450",
+		"Perceptions of corruption": "0.278",
+		"": ""
+	},
+	{
+		"Rank": "16",
+		"Country or region": "Ireland",
+		"Happiness Score": "7.021",
+		"GDP per capita": "1.499",
+		"Healthy life expectancy": "0.999",
+		"Freedom": "0.516",
+		"Perceptions of corruption": "0.310",
+		"": ""
+	},
+	{
+		"Rank": "17",
+		"Country or region": "Germany",
+		"Happiness Score": "6.985",
+		"GDP per capita": "1.373",
+		"Healthy life expectancy": "0.987",
+		"Freedom": "0.495",
+		"Perceptions of corruption": "0.265",
+		"": ""
+	},
+	{
+		"Rank": "18",
+		"Country or region": "Belgium",
+		"Happiness Score": "6.923",
+		"GDP per capita": "1.356",
+		"Healthy life expectancy": "0.986",
+		"Freedom": "0.473",
+		"Perceptions of corruption": "0.210",
+		"": ""
+	},
+	{
+		"Rank": "19",
+		"Country or region": "United States",
+		"Happiness Score": "6.892",
+		"GDP per capita": "1.433",
+		"Healthy life expectancy": "0.874",
+		"Freedom": "0.454",
+		"Perceptions of corruption": "0.128",
+		"": ""
+	},
+	{
+		"Rank": "20",
+		"Country or region": "Czech Republic",
+		"Happiness Score": "6.852",
+		"GDP per capita": "1.269",
+		"Healthy life expectancy": "0.920",
+		"Freedom": "0.457",
+		"Perceptions of corruption": "0.036",
+		"": ""
+	},
+	{
+		"Rank": "21",
+		"Country or region": "United Arab Emirates",
+		"Happiness Score": "6.825",
+		"GDP per capita": "1.503",
+		"Healthy life expectancy": "0.825",
+		"Freedom": "0.598",
+		"Perceptions of corruption": "0.182",
+		"": ""
+	},
+	{
+		"Rank": "22",
+		"Country or region": "Malta",
+		"Happiness Score": "6.726",
+		"GDP per capita": "1.300",
+		"Healthy life expectancy": "0.999",
+		"Freedom": "0.564",
+		"Perceptions of corruption": "0.151",
+		"": ""
+	},
+	{
+		"Rank": "23",
+		"Country or region": "Mexico",
+		"Happiness Score": "6.595",
+		"GDP per capita": "1.070",
+		"Healthy life expectancy": "0.861",
+		"Freedom": "0.433",
+		"Perceptions of corruption": "0.073",
+		"": ""
+	},
+	{
+		"Rank": "24",
+		"Country or region": "France",
+		"Happiness Score": "6.592",
+		"GDP per capita": "1.324",
+		"Healthy life expectancy": "1.045",
+		"Freedom": "0.436",
+		"Perceptions of corruption": "0.183",
+		"": ""
+	},
+	{
+		"Rank": "25",
+		"Country or region": "Taiwan",
+		"Happiness Score": "6.446",
+		"GDP per capita": "1.368",
+		"Healthy life expectancy": "0.914",
+		"Freedom": "0.351",
+		"Perceptions of corruption": "0.097",
+		"": ""
+	},
+	{
+		"Rank": "26",
+		"Country or region": "Chile",
+		"Happiness Score": "6.444",
+		"GDP per capita": "1.159",
+		"Healthy life expectancy": "0.920",
+		"Freedom": "0.357",
+		"Perceptions of corruption": "0.056",
+		"": ""
+	},
+	{
+		"Rank": "27",
+		"Country or region": "Guatemala",
+		"Happiness Score": "6.436",
+		"GDP per capita": "8.000",
+		"Healthy life expectancy": "0.746",
+		"Freedom": "0.535",
+		"Perceptions of corruption": "0.078",
+		"": ""
+	},
+	{
+		"Rank": "28",
+		"Country or region": "Saudi Arabia",
+		"Happiness Score": "6.375",
+		"GDP per capita": "1.403",
+		"Healthy life expectancy": "0.795",
+		"Freedom": "0.439",
+		"Perceptions of corruption": "0.132",
+		"": ""
+	},
+	{
+		"Rank": "29",
+		"Country or region": "Qatar",
+		"Happiness Score": "6.374",
+		"GDP per capita": "1.684",
+		"Healthy life expectancy": "0.871",
+		"Freedom": "0.555",
+		"Perceptions of corruption": "0.167",
+		"": ""
+	},
+	{
+		"Rank": "30",
+		"Country or region": "Spain",
+		"Happiness Score": "6.354",
+		"GDP per capita": "1.286",
+		"Healthy life expectancy": "1.062",
+		"Freedom": "0.362",
+		"Perceptions of corruption": "0.079",
+		"": ""
+	},
+	{
+		"Rank": "31",
+		"Country or region": "Panama",
+		"Happiness Score": "6.321",
+		"GDP per capita": "1.149",
+		"Healthy life expectancy": "0.910",
+		"Freedom": "0.516",
+		"Perceptions of corruption": "0.054",
+		"": ""
+	},
+	{
+		"Rank": "32",
+		"Country or region": "Brazil",
+		"Happiness Score": "6.300",
+		"GDP per capita": "1.004",
+		"Healthy life expectancy": "0.802",
+		"Freedom": "0.390",
+		"Perceptions of corruption": "0.086",
+		"": ""
+	},
+	{
+		"Rank": "33",
+		"Country or region": "Uruguay",
+		"Happiness Score": "6.293",
+		"GDP per capita": "1.124",
+		"Healthy life expectancy": "0.891",
+		"Freedom": "0.523",
+		"Perceptions of corruption": "0.150",
+		"": ""
+	},
+	{
+		"Rank": "34",
+		"Country or region": "Singapore",
+		"Happiness Score": "6.262",
+		"GDP per capita": "1.572",
+		"Healthy life expectancy": "1.141",
+		"Freedom": "0.556",
+		"Perceptions of corruption": "0.453",
+		"": ""
+	},
+	{
+		"Rank": "35",
+		"Country or region": "El Salvador",
+		"Happiness Score": "6.253",
+		"GDP per capita": "7.941",
+		"Healthy life expectancy": "0.789",
+		"Freedom": "0.430",
+		"Perceptions of corruption": "0.074",
+		"": ""
+	},
+	{
+		"Rank": "36",
+		"Country or region": "Italy",
+		"Happiness Score": "6.223",
+		"GDP per capita": "1.294",
+		"Healthy life expectancy": "1.039",
+		"Freedom": "0.231",
+		"Perceptions of corruption": "0.030",
+		"": ""
+	},
+	{
+		"Rank": "37",
+		"Country or region": "Bahrain",
+		"Happiness Score": "6.199",
+		"GDP per capita": "1.362",
+		"Healthy life expectancy": "0.871",
+		"Freedom": "0.536",
+		"Perceptions of corruption": "0.110",
+		"": ""
+	},
+	{
+		"Rank": "38",
+		"Country or region": "Slovakia",
+		"Happiness Score": "6.198",
+		"GDP per capita": "1.246",
+		"Healthy life expectancy": "0.881",
+		"Freedom": "0.334",
+		"Perceptions of corruption": "0.014",
+		"": ""
+	},
+	{
+		"Rank": "39",
+		"Country or region": "Trinidad & Tobago",
+		"Happiness Score": "6.192",
+		"GDP per capita": "1.231",
+		"Healthy life expectancy": "0.713",
+		"Freedom": "0.489",
+		"Perceptions of corruption": "0.016",
+		"": ""
+	},
+	{
+		"Rank": "40",
+		"Country or region": "Poland",
+		"Happiness Score": "6.182",
+		"GDP per capita": "1.206",
+		"Healthy life expectancy": "0.884",
+		"Freedom": "0.483",
+		"Perceptions of corruption": "0.050",
+		"": ""
+	},
+	{
+		"Rank": "41",
+		"Country or region": "Uzbekistan",
+		"Happiness Score": "6.174",
+		"GDP per capita": "7.451",
+		"Healthy life expectancy": "0.756",
+		"Freedom": "0.631",
+		"Perceptions of corruption": "0.240",
+		"": ""
+	},
+	{
+		"Rank": "42",
+		"Country or region": "Lithuania",
+		"Happiness Score": "6.149",
+		"GDP per capita": "1.238",
+		"Healthy life expectancy": "0.818",
+		"Freedom": "0.291",
+		"Perceptions of corruption": "0.042",
+		"": ""
+	},
+	{
+		"Rank": "43",
+		"Country or region": "Colombia",
+		"Happiness Score": "6.125",
+		"GDP per capita": "9.851",
+		"Healthy life expectancy": "0.841",
+		"Freedom": "0.470",
+		"Perceptions of corruption": "0.034",
+		"": ""
+	},
+	{
+		"Rank": "44",
+		"Country or region": "Slovenia",
+		"Happiness Score": "6.118",
+		"GDP per capita": "1.258",
+		"Healthy life expectancy": "0.953",
+		"Freedom": "0.564",
+		"Perceptions of corruption": "0.057",
+		"": ""
+	},
+	{
+		"Rank": "45",
+		"Country or region": "Nicaragua",
+		"Happiness Score": "6.105",
+		"GDP per capita": "6.941",
+		"Healthy life expectancy": "0.835",
+		"Freedom": "0.435",
+		"Perceptions of corruption": "0.127",
+		"": ""
+	},
+	{
+		"Rank": "46",
+		"Country or region": "Kosovo",
+		"Happiness Score": "6.100",
+		"GDP per capita": "8.821",
+		"Healthy life expectancy": "0.758",
+		"Freedom": "0.489",
+		"Perceptions of corruption": "0.006",
+		"": ""
+	},
+	{
+		"Rank": "47",
+		"Country or region": "Argentina",
+		"Happiness Score": "6.086",
+		"GDP per capita": "1.092",
+		"Healthy life expectancy": "0.881",
+		"Freedom": "0.471",
+		"Perceptions of corruption": "0.050",
+		"": ""
+	},
+	{
+		"Rank": "48",
+		"Country or region": "Romania",
+		"Happiness Score": "6.070",
+		"GDP per capita": "1.162",
+		"Healthy life expectancy": "0.825",
+		"Freedom": "0.462",
+		"Perceptions of corruption": "0.005",
+		"": ""
+	},
+	{
+		"Rank": "49",
+		"Country or region": "Cyprus",
+		"Happiness Score": "6.046",
+		"GDP per capita": "1.263",
+		"Healthy life expectancy": "1.042",
+		"Freedom": "0.406",
+		"Perceptions of corruption": "0.041",
+		"": ""
+	},
+	{
+		"Rank": "50",
+		"Country or region": "Ecuador",
+		"Happiness Score": "6.028",
+		"GDP per capita": "9.121",
+		"Healthy life expectancy": "0.868",
+		"Freedom": "0.498",
+		"Perceptions of corruption": "0.087",
+		"": ""
+	},
+	{
+		"Rank": "51",
+		"Country or region": "Kuwait",
+		"Happiness Score": "6.021",
+		"GDP per capita": "1.500",
+		"Healthy life expectancy": "0.808",
+		"Freedom": "0.493",
+		"Perceptions of corruption": "0.097",
+		"": ""
+	},
+	{
+		"Rank": "52",
+		"Country or region": "Thailand",
+		"Happiness Score": "6.008",
+		"GDP per capita": "1.050",
+		"Healthy life expectancy": "0.828",
+		"Freedom": "0.557",
+		"Perceptions of corruption": "0.028",
+		"": ""
+	},
+	{
+		"Rank": "53",
+		"Country or region": "Latvia",
+		"Happiness Score": "5.940",
+		"GDP per capita": "1.187",
+		"Healthy life expectancy": "0.812",
+		"Freedom": "0.264",
+		"Perceptions of corruption": "0.064",
+		"": ""
+	},
+	{
+		"Rank": "54",
+		"Country or region": "South Korea",
+		"Happiness Score": "5.895",
+		"GDP per capita": "1.301",
+		"Healthy life expectancy": "1.036",
+		"Freedom": "0.159",
+		"Perceptions of corruption": "0.056",
+		"": ""
+	},
+	{
+		"Rank": "55",
+		"Country or region": "Estonia",
+		"Happiness Score": "5.893",
+		"GDP per capita": "1.237",
+		"Healthy life expectancy": "0.874",
+		"Freedom": "0.495",
+		"Perceptions of corruption": "0.161",
+		"": ""
+	},
+	{
+		"Rank": "56",
+		"Country or region": "Jamaica",
+		"Happiness Score": "5.890",
+		"GDP per capita": "8.311",
+		"Healthy life expectancy": "0.831",
+		"Freedom": "0.490",
+		"Perceptions of corruption": "0.028",
+		"": ""
+	},
+	{
+		"Rank": "57",
+		"Country or region": "Mauritius",
+		"Happiness Score": "5.888",
+		"GDP per capita": "1.120",
+		"Healthy life expectancy": "0.798",
+		"Freedom": "0.498",
+		"Perceptions of corruption": "0.060",
+		"": ""
+	},
+	{
+		"Rank": "58",
+		"Country or region": "Japan",
+		"Happiness Score": "5.886",
+		"GDP per capita": "1.327",
+		"Healthy life expectancy": "1.088",
+		"Freedom": "0.445",
+		"Perceptions of corruption": "0.140",
+		"": ""
+	},
+	{
+		"Rank": "59",
+		"Country or region": "Honduras",
+		"Happiness Score": "5.860",
+		"GDP per capita": "6.421",
+		"Healthy life expectancy": "0.828",
+		"Freedom": "0.507",
+		"Perceptions of corruption": "0.078",
+		"": ""
+	},
+	{
+		"Rank": "60",
+		"Country or region": "Kazakhstan",
+		"Happiness Score": "5.809",
+		"GDP per capita": "1.173",
+		"Healthy life expectancy": "0.729",
+		"Freedom": "0.410",
+		"Perceptions of corruption": "0.096",
+		"": ""
+	},
+	{
+		"Rank": "61",
+		"Country or region": "Bolivia",
+		"Happiness Score": "5.779",
+		"GDP per capita": "7.761",
+		"Healthy life expectancy": "0.706",
+		"Freedom": "0.511",
+		"Perceptions of corruption": "0.064",
+		"": ""
+	},
+	{
+		"Rank": "62",
+		"Country or region": "Hungary",
+		"Happiness Score": "5.758",
+		"GDP per capita": "1.201",
+		"Healthy life expectancy": "0.828",
+		"Freedom": "0.199",
+		"Perceptions of corruption": "0.020",
+		"": ""
+	},
+	{
+		"Rank": "63",
+		"Country or region": "Paraguay",
+		"Happiness Score": "5.743",
+		"GDP per capita": "8.551",
+		"Healthy life expectancy": "0.777",
+		"Freedom": "0.514",
+		"Perceptions of corruption": "0.080",
+		"": ""
+	},
+	{
+		"Rank": "64",
+		"Country or region": "Northern Cyprus",
+		"Happiness Score": "5.718",
+		"GDP per capita": "1.263",
+		"Healthy life expectancy": "1.042",
+		"Freedom": "0.417",
+		"Perceptions of corruption": "0.162",
+		"": ""
+	},
+	{
+		"Rank": "65",
+		"Country or region": "Peru",
+		"Happiness Score": "5.697",
+		"GDP per capita": "9.611",
+		"Healthy life expectancy": "0.854",
+		"Freedom": "0.455",
+		"Perceptions of corruption": "0.027",
+		"": ""
+	},
+	{
+		"Rank": "66",
+		"Country or region": "Portugal",
+		"Happiness Score": "5.693",
+		"GDP per capita": "1.221",
+		"Healthy life expectancy": "0.999",
+		"Freedom": "0.508",
+		"Perceptions of corruption": "0.025",
+		"": ""
+	},
+	{
+		"Rank": "67",
+		"Country or region": "Pakistan",
+		"Happiness Score": "5.653",
+		"GDP per capita": "6.771",
+		"Healthy life expectancy": "0.535",
+		"Freedom": "0.313",
+		"Perceptions of corruption": "0.098",
+		"": ""
+	},
+	{
+		"Rank": "68",
+		"Country or region": "Russia",
+		"Happiness Score": "5.648",
+		"GDP per capita": "1.183",
+		"Healthy life expectancy": "0.726",
+		"Freedom": "0.334",
+		"Perceptions of corruption": "0.031",
+		"": ""
+	},
+	{
+		"Rank": "69",
+		"Country or region": "Philippines",
+		"Happiness Score": "5.631",
+		"GDP per capita": "8.071",
+		"Healthy life expectancy": "0.657",
+		"Freedom": "0.558",
+		"Perceptions of corruption": "0.107",
+		"": ""
+	},
+	{
+		"Rank": "70",
+		"Country or region": "Serbia",
+		"Happiness Score": "5.603",
+		"GDP per capita": "1.004",
+		"Healthy life expectancy": "0.854",
+		"Freedom": "0.282",
+		"Perceptions of corruption": "0.039",
+		"": ""
+	},
+	{
+		"Rank": "71",
+		"Country or region": "Moldova",
+		"Happiness Score": "5.529",
+		"GDP per capita": "6.851",
+		"Healthy life expectancy": "0.739",
+		"Freedom": "0.245",
+		"Perceptions of corruption": "0.000",
+		"": ""
+	},
+	{
+		"Rank": "72",
+		"Country or region": "Libya",
+		"Happiness Score": "5.525",
+		"GDP per capita": "1.044",
+		"Healthy life expectancy": "0.673",
+		"Freedom": "0.416",
+		"Perceptions of corruption": "0.152",
+		"": ""
+	},
+	{
+		"Rank": "73",
+		"Country or region": "Montenegro",
+		"Happiness Score": "5.523",
+		"GDP per capita": "1.051",
+		"Healthy life expectancy": "0.871",
+		"Freedom": "0.197",
+		"Perceptions of corruption": "0.080",
+		"": ""
+	},
+	{
+		"Rank": "74",
+		"Country or region": "Tajikistan",
+		"Happiness Score": "5.467",
+		"GDP per capita": "4.931",
+		"Healthy life expectancy": "0.718",
+		"Freedom": "0.389",
+		"Perceptions of corruption": "0.144",
+		"": ""
+	},
+	{
+		"Rank": "75",
+		"Country or region": "Croatia",
+		"Happiness Score": "5.432",
+		"GDP per capita": "1.155",
+		"Healthy life expectancy": "0.914",
+		"Freedom": "0.296",
+		"Perceptions of corruption": "0.022",
+		"": ""
+	},
+	{
+		"Rank": "76",
+		"Country or region": "Hong Kong",
+		"Happiness Score": "5.430",
+		"GDP per capita": "1.438",
+		"Healthy life expectancy": "1.122",
+		"Freedom": "0.440",
+		"Perceptions of corruption": "0.287",
+		"": ""
+	},
+	{
+		"Rank": "77",
+		"Country or region": "Dominican Republic",
+		"Happiness Score": "5.425",
+		"GDP per capita": "1.015",
+		"Healthy life expectancy": "0.779",
+		"Freedom": "0.497",
+		"Perceptions of corruption": "0.101",
+		"": ""
+	},
+	{
+		"Rank": "78",
+		"Country or region": "Bosnia and Herzegovina",
+		"Happiness Score": "5.386",
+		"GDP per capita": "9.451",
+		"Healthy life expectancy": "0.845",
+		"Freedom": "0.212",
+		"Perceptions of corruption": "0.006",
+		"": ""
+	},
+	{
+		"Rank": "79",
+		"Country or region": "Turkey",
+		"Happiness Score": "5.373",
+		"GDP per capita": "1.183",
+		"Healthy life expectancy": "0.808",
+		"Freedom": "0.195",
+		"Perceptions of corruption": "0.106",
+		"": ""
+	},
+	{
+		"Rank": "80",
+		"Country or region": "Malaysia",
+		"Happiness Score": "5.339",
+		"GDP per capita": "1.221",
+		"Healthy life expectancy": "0.828",
+		"Freedom": "0.508",
+		"Perceptions of corruption": "0.024",
+		"": ""
+	},
+	{
+		"Rank": "81",
+		"Country or region": "Belarus",
+		"Happiness Score": "5.323",
+		"GDP per capita": "1.067",
+		"Healthy life expectancy": "0.789",
+		"Freedom": "0.235",
+		"Perceptions of corruption": "0.142",
+		"": ""
+	},
+	{
+		"Rank": "82",
+		"Country or region": "Greece",
+		"Happiness Score": "5.287",
+		"GDP per capita": "1.181",
+		"Healthy life expectancy": "0.999",
+		"Freedom": "0.067",
+		"Perceptions of corruption": "0.034",
+		"": ""
+	},
+	{
+		"Rank": "83",
+		"Country or region": "Mongolia",
+		"Happiness Score": "5.285",
+		"GDP per capita": "9.481",
+		"Healthy life expectancy": "0.667",
+		"Freedom": "0.317",
+		"Perceptions of corruption": "0.038",
+		"": ""
+	},
+	{
+		"Rank": "84",
+		"Country or region": "North Macedonia",
+		"Happiness Score": "5.274",
+		"GDP per capita": "9.831",
+		"Healthy life expectancy": "0.838",
+		"Freedom": "0.345",
+		"Perceptions of corruption": "0.034",
+		"": ""
+	},
+	{
+		"Rank": "85",
+		"Country or region": "Nigeria",
+		"Happiness Score": "5.265",
+		"GDP per capita": "6.961",
+		"Healthy life expectancy": "0.245",
+		"Freedom": "0.426",
+		"Perceptions of corruption": "0.041",
+		"": ""
+	},
+	{
+		"Rank": "86",
+		"Country or region": "Kyrgyzstan",
+		"Happiness Score": "5.261",
+		"GDP per capita": "5.511",
+		"Healthy life expectancy": "0.723",
+		"Freedom": "0.508",
+		"Perceptions of corruption": "0.023",
+		"": ""
+	},
+	{
+		"Rank": "87",
+		"Country or region": "Turkmenistan",
+		"Happiness Score": "5.247",
+		"GDP per capita": "1.052",
+		"Healthy life expectancy": "0.657",
+		"Freedom": "0.394",
+		"Perceptions of corruption": "0.028",
+		"": ""
+	},
+	{
+		"Rank": "88",
+		"Country or region": "Algeria",
+		"Happiness Score": "5.211",
+		"GDP per capita": "1.002",
+		"Healthy life expectancy": "0.785",
+		"Freedom": "0.086",
+		"Perceptions of corruption": "0.114",
+		"": ""
+	},
+	{
+		"Rank": "89",
+		"Country or region": "Morocco",
+		"Happiness Score": "5.208",
+		"GDP per capita": "8.011",
+		"Healthy life expectancy": "0.782",
+		"Freedom": "0.418",
+		"Perceptions of corruption": "0.076",
+		"": ""
+	},
+	{
+		"Rank": "90",
+		"Country or region": "Azerbaijan",
+		"Happiness Score": "5.208",
+		"GDP per capita": "1.043",
+		"Healthy life expectancy": "0.769",
+		"Freedom": "0.351",
+		"Perceptions of corruption": "0.182",
+		"": ""
+	},
+	{
+		"Rank": "91",
+		"Country or region": "Lebanon",
+		"Happiness Score": "5.197",
+		"GDP per capita": "9.871",
+		"Healthy life expectancy": "0.815",
+		"Freedom": "0.216",
+		"Perceptions of corruption": "0.027",
+		"": ""
+	},
+	{
+		"Rank": "92",
+		"Country or region": "Indonesia",
+		"Happiness Score": "5.192",
+		"GDP per capita": "9.311",
+		"Healthy life expectancy": "0.660",
+		"Freedom": "0.491",
+		"Perceptions of corruption": "0.028",
+		"": ""
+	},
+	{
+		"Rank": "93",
+		"Country or region": "China",
+		"Happiness Score": "5.191",
+		"GDP per capita": "1.029",
+		"Healthy life expectancy": "0.893",
+		"Freedom": "0.521",
+		"Perceptions of corruption": "0.100",
+		"": ""
+	},
+	{
+		"Rank": "94",
+		"Country or region": "Vietnam",
+		"Happiness Score": "5.175",
+		"GDP per capita": "7.411",
+		"Healthy life expectancy": "0.851",
+		"Freedom": "0.543",
+		"Perceptions of corruption": "0.073",
+		"": ""
+	},
+	{
+		"Rank": "95",
+		"Country or region": "Bhutan",
+		"Happiness Score": "5.082",
+		"GDP per capita": "8.131",
+		"Healthy life expectancy": "0.604",
+		"Freedom": "0.457",
+		"Perceptions of corruption": "0.167",
+		"": ""
+	},
+	{
+		"Rank": "96",
+		"Country or region": "Cameroon",
+		"Happiness Score": "5.044",
+		"GDP per capita": "5.491",
+		"Healthy life expectancy": "0.331",
+		"Freedom": "0.381",
+		"Perceptions of corruption": "0.037",
+		"": ""
+	},
+	{
+		"Rank": "97",
+		"Country or region": "Bulgaria",
+		"Happiness Score": "5.011",
+		"GDP per capita": "1.092",
+		"Healthy life expectancy": "0.815",
+		"Freedom": "0.311",
+		"Perceptions of corruption": "0.004",
+		"": ""
+	},
+	{
+		"Rank": "98",
+		"Country or region": "Ghana",
+		"Happiness Score": "4.996",
+		"GDP per capita": "0.611",
+		"Healthy life expectancy": "0.486",
+		"Freedom": "0.381",
+		"Perceptions of corruption": "0.040",
+		"": ""
+	},
+	{
+		"Rank": "99",
+		"Country or region": "Ivory Coast",
+		"Happiness Score": "4.944",
+		"GDP per capita": "0.569",
+		"Healthy life expectancy": "0.232",
+		"Freedom": "0.352",
+		"Perceptions of corruption": "0.090",
+		"": ""
+	},
+	{
+		"Rank": "100",
+		"Country or region": "Nepal",
+		"Happiness Score": "4.913",
+		"GDP per capita": "0.446",
+		"Healthy life expectancy": "0.677",
+		"Freedom": "0.439",
+		"Perceptions of corruption": "0.089",
+		"": ""
+	},
+	{
+		"Rank": "101",
+		"Country or region": "Jordan",
+		"Happiness Score": "4.906",
+		"GDP per capita": "0.837",
+		"Healthy life expectancy": "0.815",
+		"Freedom": "0.383",
+		"Perceptions of corruption": "0.130",
+		"": ""
+	},
+	{
+		"Rank": "102",
+		"Country or region": "Benin",
+		"Happiness Score": "4.883",
+		"GDP per capita": "0.393",
+		"Healthy life expectancy": "0.397",
+		"Freedom": "0.349",
+		"Perceptions of corruption": "0.082",
+		"": ""
+	},
+	{
+		"Rank": "103",
+		"Country or region": "Congo (Brazzaville)",
+		"Happiness Score": "4.812",
+		"GDP per capita": "0.673",
+		"Healthy life expectancy": "0.508",
+		"Freedom": "0.372",
+		"Perceptions of corruption": "0.093",
+		"": ""
+	},
+	{
+		"Rank": "104",
+		"Country or region": "Gabon",
+		"Happiness Score": "4.799",
+		"GDP per capita": "1.057",
+		"Healthy life expectancy": "0.571",
+		"Freedom": "0.295",
+		"Perceptions of corruption": "0.055",
+		"": ""
+	},
+	{
+		"Rank": "105",
+		"Country or region": "Laos",
+		"Happiness Score": "4.796",
+		"GDP per capita": "0.764",
+		"Healthy life expectancy": "0.551",
+		"Freedom": "0.547",
+		"Perceptions of corruption": "0.164",
+		"": ""
+	},
+	{
+		"Rank": "106",
+		"Country or region": "South Africa",
+		"Happiness Score": "4.722",
+		"GDP per capita": "0.960",
+		"Healthy life expectancy": "0.469",
+		"Freedom": "0.389",
+		"Perceptions of corruption": "0.055",
+		"": ""
+	},
+	{
+		"Rank": "107",
+		"Country or region": "Albania",
+		"Happiness Score": "4.719",
+		"GDP per capita": "0.947",
+		"Healthy life expectancy": "0.874",
+		"Freedom": "0.383",
+		"Perceptions of corruption": "0.027",
+		"": ""
+	},
+	{
+		"Rank": "108",
+		"Country or region": "Venezuela",
+		"Happiness Score": "4.707",
+		"GDP per capita": "0.960",
+		"Healthy life expectancy": "0.805",
+		"Freedom": "0.154",
+		"Perceptions of corruption": "0.047",
+		"": ""
+	},
+	{
+		"Rank": "109",
+		"Country or region": "Cambodia",
+		"Happiness Score": "4.700",
+		"GDP per capita": "0.574",
+		"Healthy life expectancy": "0.637",
+		"Freedom": "0.609",
+		"Perceptions of corruption": "0.062",
+		"": ""
+	},
+	{
+		"Rank": "110",
+		"Country or region": "Palestinian Territories",
+		"Happiness Score": "4.696",
+		"GDP per capita": "0.657",
+		"Healthy life expectancy": "0.672",
+		"Freedom": "0.225",
+		"Perceptions of corruption": "0.066",
+		"": ""
+	},
+	{
+		"Rank": "111",
+		"Country or region": "Senegal",
+		"Happiness Score": "4.681",
+		"GDP per capita": "0.450",
+		"Healthy life expectancy": "0.571",
+		"Freedom": "0.292",
+		"Perceptions of corruption": "0.072",
+		"": ""
+	},
+	{
+		"Rank": "112",
+		"Country or region": "Somalia",
+		"Happiness Score": "4.668",
+		"GDP per capita": "0.000",
+		"Healthy life expectancy": "0.268",
+		"Freedom": "0.559",
+		"Perceptions of corruption": "0.270",
+		"": ""
+	},
+	{
+		"Rank": "113",
+		"Country or region": "Namibia",
+		"Happiness Score": "4.639",
+		"GDP per capita": "0.879",
+		"Healthy life expectancy": "0.477",
+		"Freedom": "0.401",
+		"Perceptions of corruption": "0.056",
+		"": ""
+	},
+	{
+		"Rank": "114",
+		"Country or region": "Niger",
+		"Happiness Score": "4.628",
+		"GDP per capita": "0.138",
+		"Healthy life expectancy": "0.366",
+		"Freedom": "0.318",
+		"Perceptions of corruption": "0.102",
+		"": ""
+	},
+	{
+		"Rank": "115",
+		"Country or region": "Burkina Faso",
+		"Happiness Score": "4.587",
+		"GDP per capita": "0.331",
+		"Healthy life expectancy": "0.380",
+		"Freedom": "0.255",
+		"Perceptions of corruption": "0.113",
+		"": ""
+	},
+	{
+		"Rank": "116",
+		"Country or region": "Armenia",
+		"Happiness Score": "4.559",
+		"GDP per capita": "0.850",
+		"Healthy life expectancy": "0.815",
+		"Freedom": "0.283",
+		"Perceptions of corruption": "0.064",
+		"": ""
+	},
+	{
+		"Rank": "117",
+		"Country or region": "Iran",
+		"Happiness Score": "4.548",
+		"GDP per capita": "1.100",
+		"Healthy life expectancy": "0.785",
+		"Freedom": "0.305",
+		"Perceptions of corruption": "0.125",
+		"": ""
+	},
+	{
+		"Rank": "118",
+		"Country or region": "Guinea",
+		"Happiness Score": "4.534",
+		"GDP per capita": "0.380",
+		"Healthy life expectancy": "0.375",
+		"Freedom": "0.332",
+		"Perceptions of corruption": "0.086",
+		"": ""
+	},
+	{
+		"Rank": "119",
+		"Country or region": "Georgia",
+		"Happiness Score": "4.519",
+		"GDP per capita": "0.886",
+		"Healthy life expectancy": "0.752",
+		"Freedom": "0.346",
+		"Perceptions of corruption": "0.164",
+		"": ""
+	},
+	{
+		"Rank": "120",
+		"Country or region": "Gambia",
+		"Happiness Score": "4.516",
+		"GDP per capita": "0.308",
+		"Healthy life expectancy": "0.428",
+		"Freedom": "0.382",
+		"Perceptions of corruption": "0.167",
+		"": ""
+	},
+	{
+		"Rank": "121",
+		"Country or region": "Kenya",
+		"Happiness Score": "4.509",
+		"GDP per capita": "0.512",
+		"Healthy life expectancy": "0.581",
+		"Freedom": "0.431",
+		"Perceptions of corruption": "0.053",
+		"": ""
+	},
+	{
+		"Rank": "122",
+		"Country or region": "Mauritania",
+		"Happiness Score": "4.490",
+		"GDP per capita": "0.570",
+		"Healthy life expectancy": "0.489",
+		"Freedom": "0.066",
+		"Perceptions of corruption": "0.088",
+		"": ""
+	},
+	{
+		"Rank": "123",
+		"Country or region": "Mozambique",
+		"Happiness Score": "4.466",
+		"GDP per capita": "0.204",
+		"Healthy life expectancy": "0.390",
+		"Freedom": "0.494",
+		"Perceptions of corruption": "0.138",
+		"": ""
+	},
+	{
+		"Rank": "124",
+		"Country or region": "Tunisia",
+		"Happiness Score": "4.461",
+		"GDP per capita": "0.921",
+		"Healthy life expectancy": "0.815",
+		"Freedom": "0.167",
+		"Perceptions of corruption": "0.055",
+		"": ""
+	},
+	{
+		"Rank": "125",
+		"Country or region": "Bangladesh",
+		"Happiness Score": "4.456",
+		"GDP per capita": "0.562",
+		"Healthy life expectancy": "0.723",
+		"Freedom": "0.527",
+		"Perceptions of corruption": "0.143",
+		"": ""
+	},
+	{
+		"Rank": "126",
+		"Country or region": "Iraq",
+		"Happiness Score": "4.437",
+		"GDP per capita": "1.043",
+		"Healthy life expectancy": "0.574",
+		"Freedom": "0.241",
+		"Perceptions of corruption": "0.089",
+		"": ""
+	},
+	{
+		"Rank": "127",
+		"Country or region": "Congo (Kinshasa)",
+		"Happiness Score": "4.418",
+		"GDP per capita": "0.094",
+		"Healthy life expectancy": "0.357",
+		"Freedom": "0.269",
+		"Perceptions of corruption": "0.053",
+		"": ""
+	},
+	{
+		"Rank": "128",
+		"Country or region": "Mali",
+		"Happiness Score": "4.390",
+		"GDP per capita": "0.385",
+		"Healthy life expectancy": "0.308",
+		"Freedom": "0.327",
+		"Perceptions of corruption": "0.052",
+		"": ""
+	},
+	{
+		"Rank": "129",
+		"Country or region": "Sierra Leone",
+		"Happiness Score": "4.374",
+		"GDP per capita": "0.268",
+		"Healthy life expectancy": "0.242",
+		"Freedom": "0.309",
+		"Perceptions of corruption": "0.045",
+		"": ""
+	},
+	{
+		"Rank": "130",
+		"Country or region": "Sri Lanka",
+		"Happiness Score": "4.366",
+		"GDP per capita": "0.949",
+		"Healthy life expectancy": "0.831",
+		"Freedom": "0.470",
+		"Perceptions of corruption": "0.047",
+		"": ""
+	},
+	{
+		"Rank": "131",
+		"Country or region": "Myanmar",
+		"Happiness Score": "4.360",
+		"GDP per capita": "0.710",
+		"Healthy life expectancy": "0.555",
+		"Freedom": "0.525",
+		"Perceptions of corruption": "0.172",
+		"": ""
+	},
+	{
+		"Rank": "132",
+		"Country or region": "Chad",
+		"Happiness Score": "4.350",
+		"GDP per capita": "0.350",
+		"Healthy life expectancy": "0.192",
+		"Freedom": "0.174",
+		"Perceptions of corruption": "0.078",
+		"": ""
+	},
+	{
+		"Rank": "133",
+		"Country or region": "Ukraine",
+		"Happiness Score": "4.332",
+		"GDP per capita": "0.820",
+		"Healthy life expectancy": "0.739",
+		"Freedom": "0.178",
+		"Perceptions of corruption": "0.010",
+		"": ""
+	},
+	{
+		"Rank": "134",
+		"Country or region": "Ethiopia",
+		"Happiness Score": "4.286",
+		"GDP per capita": "0.336",
+		"Healthy life expectancy": "0.532",
+		"Freedom": "0.344",
+		"Perceptions of corruption": "0.100",
+		"": ""
+	},
+	{
+		"Rank": "135",
+		"Country or region": "Swaziland",
+		"Happiness Score": "4.212",
+		"GDP per capita": "0.811",
+		"Healthy life expectancy": "0.000",
+		"Freedom": "0.313",
+		"Perceptions of corruption": "0.135",
+		"": ""
+	},
+	{
+		"Rank": "136",
+		"Country or region": "Uganda",
+		"Happiness Score": "4.189",
+		"GDP per capita": "0.332",
+		"Healthy life expectancy": "0.443",
+		"Freedom": "0.356",
+		"Perceptions of corruption": "0.060",
+		"": ""
+	},
+	{
+		"Rank": "137",
+		"Country or region": "Egypt",
+		"Happiness Score": "4.166",
+		"GDP per capita": "0.913",
+		"Healthy life expectancy": "0.644",
+		"Freedom": "0.241",
+		"Perceptions of corruption": "0.067",
+		"": ""
+	},
+	{
+		"Rank": "138",
+		"Country or region": "Zambia",
+		"Happiness Score": "4.107",
+		"GDP per capita": "0.578",
+		"Healthy life expectancy": "0.426",
+		"Freedom": "0.431",
+		"Perceptions of corruption": "0.087",
+		"": ""
+	},
+	{
+		"Rank": "139",
+		"Country or region": "Togo",
+		"Happiness Score": "4.085",
+		"GDP per capita": "0.275",
+		"Healthy life expectancy": "0.410",
+		"Freedom": "0.293",
+		"Perceptions of corruption": "0.085",
+		"": ""
+	},
+	{
+		"Rank": "140",
+		"Country or region": "India",
+		"Happiness Score": "4.015",
+		"GDP per capita": "0.755",
+		"Healthy life expectancy": "0.588",
+		"Freedom": "0.498",
+		"Perceptions of corruption": "0.085",
+		"": ""
+	},
+	{
+		"Rank": "141",
+		"Country or region": "Liberia",
+		"Happiness Score": "3.975",
+		"GDP per capita": "0.073",
+		"Healthy life expectancy": "0.443",
+		"Freedom": "0.370",
+		"Perceptions of corruption": "0.033",
+		"": ""
+	},
+	{
+		"Rank": "142",
+		"Country or region": "Comoros",
+		"Happiness Score": "3.973",
+		"GDP per capita": "0.274",
+		"Healthy life expectancy": "0.505",
+		"Freedom": "0.142",
+		"Perceptions of corruption": "0.078",
+		"": ""
+	},
+	{
+		"Rank": "143",
+		"Country or region": "Madagascar",
+		"Happiness Score": "3.933",
+		"GDP per capita": "0.274",
+		"Healthy life expectancy": "0.555",
+		"Freedom": "0.148",
+		"Perceptions of corruption": "0.041",
+		"": ""
+	},
+	{
+		"Rank": "144",
+		"Country or region": "Lesotho",
+		"Happiness Score": "3.802",
+		"GDP per capita": "0.489",
+		"Healthy life expectancy": "0.168",
+		"Freedom": "0.359",
+		"Perceptions of corruption": "0.093",
+		"": ""
+	},
+	{
+		"Rank": "145",
+		"Country or region": "Burundi",
+		"Happiness Score": "3.775",
+		"GDP per capita": "0.046",
+		"Healthy life expectancy": "0.380",
+		"Freedom": "0.220",
+		"Perceptions of corruption": "0.180",
+		"": ""
+	},
+	{
+		"Rank": "146",
+		"Country or region": "Zimbabwe",
+		"Happiness Score": "3.663",
+		"GDP per capita": "0.366",
+		"Healthy life expectancy": "0.433",
+		"Freedom": "0.361",
+		"Perceptions of corruption": "0.089",
+		"": ""
+	},
+	{
+		"Rank": "147",
+		"Country or region": "Haiti",
+		"Happiness Score": "3.597",
+		"GDP per capita": "0.323",
+		"Healthy life expectancy": "0.449",
+		"Freedom": "0.026",
+		"Perceptions of corruption": "0.110",
+		"": ""
+	},
+	{
+		"Rank": "148",
+		"Country or region": "Botswana",
+		"Happiness Score": "3.488",
+		"GDP per capita": "1.041",
+		"Healthy life expectancy": "0.538",
+		"Freedom": "0.455",
+		"Perceptions of corruption": "0.100",
+		"": ""
+	},
+	{
+		"Rank": "149",
+		"Country or region": "Syria",
+		"Happiness Score": "3.462",
+		"GDP per capita": "0.619",
+		"Healthy life expectancy": "0.440",
+		"Freedom": "0.013",
+		"Perceptions of corruption": "0.141",
+		"": ""
+	},
+	{
+		"Rank": "150",
+		"Country or region": "Malawi",
+		"Happiness Score": "3.410",
+		"GDP per capita": "0.191",
+		"Healthy life expectancy": "0.495",
+		"Freedom": "0.443",
+		"Perceptions of corruption": "0.089",
+		"": ""
+	},
+	{
+		"Rank": "151",
+		"Country or region": "Yemen",
+		"Happiness Score": "3.380",
+		"GDP per capita": "0.287",
+		"Healthy life expectancy": "0.463",
+		"Freedom": "0.143",
+		"Perceptions of corruption": "0.077",
+		"": ""
+	},
+	{
+		"Rank": "152",
+		"Country or region": "Rwanda",
+		"Happiness Score": "3.334",
+		"GDP per capita": "0.359",
+		"Healthy life expectancy": "0.614",
+		"Freedom": "0.555",
+		"Perceptions of corruption": "0.411",
+		"": ""
+	},
+	{
+		"Rank": "153",
+		"Country or region": "Tanzania",
+		"Happiness Score": "3.231",
+		"GDP per capita": "0.476",
+		"Healthy life expectancy": "0.499",
+		"Freedom": "0.417",
+		"Perceptions of corruption": "0.147",
+		"": ""
+	},
+	{
+		"Rank": "154",
+		"Country or region": "Afghanistan",
+		"Happiness Score": "3.203",
+		"GDP per capita": "0.350",
+		"Healthy life expectancy": "0.361",
+		"Freedom": "0.000",
+		"Perceptions of corruption": "0.025",
+		"": ""
+	},
+	{
+		"Rank": "155",
+		"Country or region": "Central African Republic",
+		"Happiness Score": "3.083",
+		"GDP per capita": "0.026",
+		"Healthy life expectancy": "0.105",
+		"Freedom": "0.225",
+		"Perceptions of corruption": "0.035",
+		"": ""
+	},
+	{
+		"Rank": "156",
+		"Country or region": "South Sudan",
+		"Happiness Score": "2.853",
+		"GDP per capita": "0.306",
+		"Healthy life expectancy": "0.295",
+		"Freedom": "0.010",
+		"Perceptions of corruption": "0.091",
+		"": ""
+	},
+	{
+		"Rank": ""
+	}
+]
