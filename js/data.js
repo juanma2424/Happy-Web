@@ -1,4 +1,4 @@
-Highcharts.getJSON( 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/JSData/test.json',  function (data) {
+Highcharts.getJSON( 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/JSData/test1.json',  function (data) {
     Highcharts.mapChart('container', {
         chart: {
             borderWidth: 1,
