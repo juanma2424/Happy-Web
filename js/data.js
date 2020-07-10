@@ -1,54 +1,42 @@
-// Prepare demo data
-// Data is joined to map using value of 'hc-key' property by default.
-// See API docs for 'joinBy' for more info on linking data and map.
-var data = [
-    ['za-ec', 0],
-    ['za-np', 1],
-    ['za-nl', 2],
-    ['za-wc', 3],
-    ['za-nc', 4],
-    ['za-nw', 5],
-    ['za-fs', 6],
-    ['za-gt', 7],
-    ['za-mp', 8]
-  ];
-  
-  // Create the chart
-  Highcharts.mapChart('container', {
-    chart: {
-      map: 'countries/za/za-all'
-    },
-  
-    title: {
-      text: 'Highmaps basic demo'
-    },
-  
-    subtitle: {
-      text: 'Source map: <a href="http://code.highcharts.com/mapdata/countries/za/za-all.js">South Africa</a>'
-    },
-  
-    mapNavigation: {
-      enabled: true,
-      buttonOptions: {
-        verticalAlign: 'bottom'
-      }
-    },
-  
-    colorAxis: {
-      min: 0
-    },
-  
-    series: [{
-      data: data,
-      name: 'Random data',
-      states: {
-        hover: {
-          color: '#BADA55'
-        }
-      },
-      dataLabels: {
-        enabled: true,
-        format: '{point.name}'
-      }
-    }]
-  });
+Highcharts.getJSON( 'C:/Users/USER/Desktop/PC-3/js/sample.json',  function (data) {
+    Highcharts.mapChart('container', {
+        chart: {
+            borderWidth: 1,
+            map: 'custom/world'
+        },
+        title: {
+            text: 'World population 2013 by country'
+        },
+
+        subtitle: {
+            text: 'Demo of Highcharts map with bubbles'
+        },
+
+        legend: {
+            enabled: false
+        },
+
+        mapNavigation: {
+            enabled: true,
+            buttonOptions: {
+                verticalAlign: 'bottom'
+            }
+        },
+
+        series: [{
+            name: 'Countries',
+            color: '#E0E0E0',
+            enableMouseTracking: false
+        }, {
+            type: 'mapbubble',
+            name: 'Population 2016',
+            joinBy: ['iso-a3', 'code3'],
+            data: data,
+            minSize: 4,
+            maxSize: '12%',
+            tooltip: {
+                pointFormat: '{point.properties.hc-a2}: {point.z} thousands'
+            }
+        }]
+    });
+});
