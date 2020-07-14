@@ -1,4 +1,4 @@
-Highcharts.getJSON( 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/2019.json',function (data) {
+Highcharts.getJSON( 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/pp.json',function (data) {
     Highcharts.mapChart('container', {
         chart: {
             borderWidth: 1,
@@ -35,7 +35,7 @@ Highcharts.getJSON( 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juan
             minSize: 4,
             maxSize: '12%',
             tooltip: {
-                pointFormat: '{point.properties.hc-a2}: {point.scoreH} thousands'
+                pointFormat: '{point.scoreH}'
             }
         }]
     });

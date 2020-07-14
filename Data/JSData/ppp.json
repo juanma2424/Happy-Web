@@ -1,0 +1,70 @@
+[
+    [
+        {
+            "Country": "Finland",
+            "scoreH": 7769,
+            "GDP": 1.34,
+            "Healthy": 0.986,
+            "Freedom": 0.596,
+            "corruption": 0.393,
+            "code3": "FIN",
+            "name": "Finland",
+            "code": "FI"
+        },
+        {
+            "Country": "Denmark",
+            "scoreH": 76,
+            "GDP": 1.383,
+            "Healthy": 0.996,
+            "Freedom": 0.592,
+            "corruption": 0.41,
+            "code3": "DNK",
+            "name": "Denmark",
+            "code": "DK"
+        },
+        {
+            "Country": "Afghanistan",
+            "scoreH": 3203,
+            "GDP": 0.35,
+            "Healthy": 0.361,
+            "Freedom": 0.111,
+            "corruption": 0.025,
+            "code3": "AFG",
+            "name": "Afghanistan",
+            "code": "AF"
+        },
+        {
+            "Country": "Norway",
+            "scoreH": 7554,
+            "GDP": 1.488,
+            "Healthy": 1.028,
+            "Freedom": 0.603,
+            "corruption": 0.341,
+            "code3": "NOR",
+            "name": "Norway",
+            "code": "NO"
+        },
+        {
+            "Country": "Iceland",
+            "scoreH": 7494,
+            "GDP": 1.38,
+            "Healthy": 1.026,
+            "Freedom": 0.591,
+            "corruption": 0.118,
+            "code3": "ISL",
+            "name": "Iceland",
+            "code": "IS"
+        },
+        {
+            "Country": "Albania",
+            "scoreH": 4719,
+            "GDP": 0.947,
+            "Healthy": 0.874,
+            "Freedom": 0.383,
+            "corruption": 0.027,
+            "code3": "ALB",
+            "name": "Albania",
+            "code": "AL"
+        }
+    ]
+]
