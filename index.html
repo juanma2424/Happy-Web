@@ -6,14 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--llamada al CSS-->
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div id="container"></div>
+    <h1>Custom Range Slider</h1>
+    <p>Drag the slider to display the current value.</p>
+    <div class="slidecontainer">
+        <input type="range" min="2015" max="2019" value="1" class="slider" id="myRange">
+        <p>Value: <span id="demo"></span></p>
+    </div>
+    
 </body>
 
 <!--llamada al Bibliotecas-->
+<script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    slider.oninput = function () {
+        output.innerHTML = this.value;
+    }
+</script>
+
+
+
+
+
+
+
 <script src="https://code.highcharts.com/maps/highmaps.js"></script>
 <script src="https://code.highcharts.com/maps/modules/data.js"></script>
 <script src="https://code.highcharts.com/maps/modules/data.js"></script>
@@ -30,7 +52,3 @@
 
 
 </html>
-
-
-
-

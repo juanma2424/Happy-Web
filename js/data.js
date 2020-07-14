@@ -1,8 +1,23 @@
-Highcharts.getJSON('https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/MM2019.json', function (data) {
+var Ppath ;
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+slider.oninput = function () {
+    output.innerHTML = this.value;
+
+if(slider.value==="2015"){
+    Ppath = 'https://cdn.jsdelivr.net/gh/highcharts/highcharts@v7.0.0/samples/data/world-population.json'
+}
+if(slider.value==="2016"){
+    Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/M2019.json'
+}
+
+
+Highcharts.getJSON(Ppath, function (data) {
 
     Highcharts.mapChart('container', {
         chart: {
-            borderWidth: 1,
+            borderWidth: 3,
             map: 'custom/world'
         },
 
@@ -42,3 +57,8 @@ Highcharts.getJSON('https://raw.githubusercontent.com/juanma2424/Happy-Web/juanm
         }]
     });
 });
+
+
+
+
+}
