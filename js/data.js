@@ -1,4 +1,4 @@
-Highcharts.getJSON( 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/pp.json',function (data) {
+Highcharts.getJSON( 'https://cdn.jsdelivr.net/gh/highcharts/highcharts@v7.0.0/samples/data/world-population.json',function (data) {
     Highcharts.mapChart('container', {
         chart: {
             borderWidth: 1,
@@ -35,7 +35,7 @@ Highcharts.getJSON( 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juan
             minSize: 4,
             maxSize: '12%',
             tooltip: {
-                pointFormat: '{point.scoreH}'
+                pointFormat: '{point.properties.hc-a2}:{point.z} thousands'
             }
         }]
     });
