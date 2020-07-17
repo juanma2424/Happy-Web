@@ -15,7 +15,7 @@ slider.oninput = function () {
         Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/M2019.json';
     }
 
-    Highcharts.getJSON('https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/2019M.json', function (data) {
+    Highcharts.getJSON('https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/2019MP.json', function (data) {
 
         // Prevent logarithmic errors in color calulcation
         data.forEach(function (p) {
@@ -38,8 +38,8 @@ slider.oninput = function () {
             },
 
             colorAxis: {
-                min: 1,
-                max: 10,
+                min: 400,
+                max: 800,
                 type: 'logarithmic'
             },
 
@@ -60,139 +60,43 @@ slider.oninput = function () {
     });
 
 
+    Highcharts.getJSON('https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/2019PIE.json', function (data) {
 
-
-
-    // Highcharts.getJSON(Ppath, function (data) {
-
-    //     // Prevent logarithmic errors in color calulcation
-    //     data.forEach(function (p) {
-    //         p.value = (p.value < 1 ? 3 : p.value);
-    //     });
-
-    //     Highcharts.mapChart('container', {
-    //         chart: {
-    //             borderWidth: 3,
-    //             map: 'custom/world'
-    //         },
-
-    //         title: {
-    //             text: 'World population 2013 by country'
-    //         },
-
-    //         subtitle: {
-    //             text: 'Demo of Highcharts map with bubbles'
-    //         },
-
-    //         legend: {
-    //             enabled: false
-    //         },
-
-    //         mapNavigation: {
-    //             enabled: true,
-    //             buttonOptions: {
-    //                 verticalAlign: 'bottom'
-    //             }
-    //         },
-
-    //         series: [{
-    //             name: 'Countries',
-    //             color: '#E0E0E0',
-    //             enableMouseTracking: false
-    //         }, {
-    //             type: 'mapbubble',
-    //             name: 'Population 2016',
-    //             joinBy: ['iso-a3', 'code3'],
-    //             data: data,
-    //             minSize: 4,
-    //             maxSize: '7%',
-    //             tooltip: {
-    //                 pointFormat: '{point.properties.hc-a2}: {point.z} Happy Score'
-    //             }
-    //         }]
-
-    //     });
-
-    //     if (countryData === "1") {
-    //         countryData = "hola";
-    //     } else {
-    //         countryData = series.tooltip.pointFormat;
-    //     }
-
-
-
-    //     Highcharts.chart('container1', {
-
-
-
-    //         chart: {
-    //             plotBackgroundColor: null,
-    //             plotBorderWidth: null,
-    //             plotShadow: false,
-    //             type: 'pie'
-    //         },
-    //         title: {
-    //             text: countryData
-    //         },
-    //         tooltip: {
-    //             pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-    //         },
-    //         accessibility: {
-    //             point: {
-    //                 valueSuffix: '%'
-    //             }
-    //         },
-    //         plotOptions: {
-    //             pie: {
-    //                 allowPointSelect: true,
-    //                 cursor: 'pointer',
-    //                 dataLabels: {
-    //                     enabled: true,
-    //                     format: '<b>{point.name}</b>: {point.percentage:.1f} %'
-    //                 }
-    //             }
-    //         },
-    //         series: [{
-    //             name: 'Brands',
-    //             colorByPoint: true,
-    //             data: [{
-    //                 name: 'Chrome',
-    //                 y: 61.41,
-    //             }, {
-    //                 name: 'Internet Explorer',
-    //                 y: 11.84
-    //             }, {
-    //                 name: 'Firefox',
-    //                 y: 10.85
-    //             }, {
-    //                 name: 'Edge',
-    //                 y: 4.67
-    //             }, {
-    //                 name: 'Safari',
-    //                 y: 4.18
-    //             }, {
-    //                 name: 'Sogou Explorer',
-    //                 y: 1.64
-    //             }, {
-    //                 name: 'Opera',
-    //                 y: 1.6
-    //             }, {
-    //                 name: 'QQ',
-    //                 y: 1.2
-    //             }, {
-    //                 name: 'Other',
-    //                 y: 2.61
-    //             }]
-    //         }]
-    //     });
-
-
-    // });
-
-
-
-
-
+        Highcharts.chart('container1', {
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie'
+            },
+            title: {
+                text: 'Browser market shares in January, 2018'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            accessibility: {
+                point: {
+                    valueSuffix: '%'
+                }
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                    }
+                }
+            },
+            series: [{
+                name: 'Brands',
+                colorByPoint: true,
+                data:data
+            }]
+        });
+    })
 
 }
 
