@@ -17,25 +17,10 @@
         <input type="range" min="2015" max="2019" value="1" class="slider" id="myRange">
         <p>Value: <span id="demo"></span></p>
     </div>
-    
+    <div id="container1"></div>
 </body>
 
 <!--llamada al Bibliotecas-->
-<script>
-    var slider = document.getElementById("myRange");
-    var output = document.getElementById("demo");
-    output.innerHTML = slider.value;
-    slider.oninput = function () {
-        output.innerHTML = this.value;
-    }
-</script>
-
-
-
-
-
-
-
 <script src="https://code.highcharts.com/maps/highmaps.js"></script>
 <script src="https://code.highcharts.com/maps/modules/data.js"></script>
 <script src="https://code.highcharts.com/maps/modules/data.js"></script>
@@ -43,12 +28,24 @@
 <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
 <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
 
-
-
-
-
 <!--llamada al js-->
 <script src="js/data.js"></script>
+
+<!---------------------------- PIE --------------------------------------->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<figure class="highcharts-figure">
+    <div id="container"></div>
+    <p class="highcharts-description">
+        Pie charts are very popular for showing a compact overview of a
+        composition or comparison. While they can be harder to read than
+        column charts, they remain a popular choice for small datasets.
+    </p>
+</figure>
+
+
 
 
 </html>
