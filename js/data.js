@@ -15,7 +15,7 @@ slider.oninput = function () {
         Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/M2019.json';
     }
 
-    Highcharts.getJSON('https://cdn.jsdelivr.net/gh/highcharts/highcharts@v7.0.0/samples/data/world-population-density.json', function (data) {
+    Highcharts.getJSON('https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/2019M.json', function (data) {
 
         // Prevent logarithmic errors in color calulcation
         data.forEach(function (p) {
@@ -39,7 +39,7 @@ slider.oninput = function () {
 
             colorAxis: {
                 min: 1,
-                max: 1000,
+                max: 10,
                 type: 'logarithmic'
             },
 
