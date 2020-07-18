@@ -2,6 +2,7 @@ var pathMap;
 var pathPie;
 var pathSemiPie;
 var pathBar;
+var img;
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
 output.innerHTML = slider.value;
@@ -15,31 +16,39 @@ slider.oninput = function () {
         pathMap = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONMAP/2015M.json';
         pathPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONPIE/2015P.json';
         pathSemiPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONSEMIPIE/2015SP.json';
+        pathBar = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/BARJSON/2015BAR.json';
+        img.src = "C:/Users/USER/Desktop/PC-3/DATA/IMG/2019.png";
+       
     }
     if (slider.value === "2016") {
         pathMap = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONMAP/2016M.json';
         pathPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONPIE/2016P.json';
         pathSemiPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONSEMIPIE/2016SP.json';
-
+        pathBar = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/BARJSON/2016BAR.json';
     }
     if (slider.value === "2017") {
         pathMap = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONMAP/2017M.json';
         pathPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONPIE/2017P.json';
         pathSemiPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONSEMIPIE/2017SP.json';
-
+        pathBar = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/BARJSON/2017BAR.json';
     }
     if (slider.value === "2018") {
         pathMap = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONMAP/2018M.json';
         pathPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONPIE/2018P.json';
         pathSemiPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONSEMIPIE/2018SP.json';
-
+        pathBar = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/BARJSON/2018BAR.json';
     }
     if (slider.value === "2019") {
         pathMap = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONMAP/2019M.json';
         pathPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONPIE/2019P.json';
         pathSemiPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONSEMIPIE/2019SP.json';
-
+        pathBar = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/BARJSON/2019BAR.json';
     }
+
+
+    img = document.createElement("img");
+    var src = document.getElementById("picture1");
+    src.appendChild(img);
 
     Highcharts.getJSON(pathMap, function (data) {
 
@@ -177,10 +186,7 @@ slider.oninput = function () {
                 type: 'column'
             },
             title: {
-                text: 'World\'s largest cities per 2017'
-            },
-            subtitle: {
-                text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>'
+                text: 'Happiest countries'
             },
             xAxis: {
                 type: 'category',
@@ -195,18 +201,18 @@ slider.oninput = function () {
             yAxis: {
                 min: 0,
                 title: {
-                    text: 'Population (millions)'
+                    text: 'Happieness'
                 }
             },
             legend: {
                 enabled: false
             },
             tooltip: {
-                pointFormat: 'Population in 2017: <b>{point.y:.1f} millions</b>'
+                pointFormat: 'Happiness Rank: <b>{point.y:.1f} millions</b>'
             },
             series: [{
                 name: 'Population',
-                data:data,
+                data: data,
                 dataLabels: {
                     enabled: true,
                     rotation: -90,
@@ -222,7 +228,6 @@ slider.oninput = function () {
             }]
         });
     })
-
 }
 
 
