@@ -1,21 +1,30 @@
-var PpathZ;
+var Ppath;
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
 output.innerHTML = slider.value;
-slider.oninput = true;
+
 
 slider.oninput = function () {
 
     output.innerHTML = this.value;
 
     if (slider.value === "2015") {
-        Ppath = 'https://cdn.jsdelivr.net/gh/highcharts/highcharts@v7.0.0/samples/data/world-population.json';
+        Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/2015M.json';
     }
     if (slider.value === "2016") {
-        Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/M2019.json';
+        Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/2016M.json';
+    }
+    if (slider.value === "2017") {
+        Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/2017M.json';
+    }
+    if (slider.value === "2018") {
+        Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/2018M.json';
+    }
+    if (slider.value === "2019") {
+        Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/2019M.json';
     }
 
-    Highcharts.getJSON('https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/2019MP.json', function (data) {
+    Highcharts.getJSON(Ppath, function (data) {
 
         // Prevent logarithmic errors in color calulcation
         data.forEach(function (p) {
@@ -29,7 +38,7 @@ slider.oninput = function () {
             },
 
             title: {
-                text: 'Zoom in on country by double click'
+                text: 'Happiest countries in the world'
             },
 
             mapNavigation: {
@@ -46,7 +55,7 @@ slider.oninput = function () {
             series: [{
                 data: data,
                 joinBy: ['iso-a3', 'code3'],
-                name: 'Population density',
+                name: 'Happiness',
                 states: {
                     hover: {
                         color: '#a4edba'
