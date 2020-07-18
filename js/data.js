@@ -1,4 +1,6 @@
-var Ppath;
+var pathMap;
+var pathPie;
+var pathSemiPie;
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
 output.innerHTML = slider.value;
@@ -9,22 +11,27 @@ slider.oninput = function () {
     output.innerHTML = this.value;
 
     if (slider.value === "2015") {
-        Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/2015M.json';
+        pathMap = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONMAP/2015M.json';
+        pathPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONPIE/2015P.json';
     }
     if (slider.value === "2016") {
-        Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/2016M.json';
+        pathMap = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONMAP/2016M.json';
+        pathPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONPIE/2016P.json';
     }
     if (slider.value === "2017") {
-        Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/2017M.json';
+        pathMap = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONMAP/2017M.json';
+        pathPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONPIE/2017P.json';
     }
     if (slider.value === "2018") {
-        Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/2018M.json';
+        pathMap = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONMAP/2018M.json';
+        pathPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONPIE/2018P.json';
     }
     if (slider.value === "2019") {
-        Ppath = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/2019M.json';
+        pathMap = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONMAP/2019M.json';
+        pathPie = 'https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/DATA/JSON/JSONPIE/2019P.json';
     }
 
-    Highcharts.getJSON(Ppath, function (data) {
+    Highcharts.getJSON(pathMap, function (data) {
 
         // Prevent logarithmic errors in color calulcation
         data.forEach(function (p) {
@@ -69,43 +76,90 @@ slider.oninput = function () {
     });
 
 
-    // Highcharts.getJSON('https://raw.githubusercontent.com/juanma2424/Happy-Web/juanma/Data/JSData/2019PG.json', function (data) {
+    Highcharts.getJSON(pathPie, function (data) {
 
-    //     Highcharts.chart('container1', {
-    //         chart: {
-    //             plotBackgroundColor: null,
-    //             plotBorderWidth: null,
-    //             plotShadow: false,
-    //             type: 'pie'
-    //         },
-    //         title: {
-    //             text: 'Browser market shares in January, 2018'
-    //         },
-    //         tooltip: {
-    //             pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-    //         },
-    //         accessibility: {
-    //             point: {
-    //                 valueSuffix: '%'
-    //             }
-    //         },
-    //         plotOptions: {
-    //             pie: {
-    //                 allowPointSelect: true,
-    //                 cursor: 'pointer',
-    //                 dataLabels: {
-    //                     enabled: true,
-    //                     format: '<b>{point.name}</b>: {point.percentage:.1f} %'
-    //                 }
-    //             }
-    //         },
-    //         series: [{
-    //             name: 'Brands',
-    //             colorByPoint: true,
-    //             data:data
-    //         }]
-    //     });
-    // })
+        Highcharts.chart('piecontainer', {
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie'
+            },
+            title: {
+                text: 'health in countries'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            accessibility: {
+                point: {
+                    valueSuffix: '%'
+                }
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                    }
+                }
+            },
+            series: [{
+                name: 'Brands',
+                colorByPoint: true,
+                data: data
+            }]
+        });
+    })
+
+
+    Highcharts.getJSON(pathSemiPie, function (data) {
+        Highcharts.chart('semipiecontainer', {
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: 0,
+                plotShadow: false
+            },
+            title: {
+                text: 'Browser<br>shares<br>2017',
+                align: 'center',
+                verticalAlign: 'middle',
+                y: 60
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            accessibility: {
+                point: {
+                    valueSuffix: '%'
+                }
+            },
+            plotOptions: {
+                pie: {
+                    dataLabels: {
+                        enabled: true,
+                        distance: -50,
+                        style: {
+                            fontWeight: 'bold',
+                            color: 'white'
+                        }
+                    },
+                    startAngle: -90,
+                    endAngle: 90,
+                    center: ['50%', '75%'],
+                    size: '110%'
+                }
+            },
+            series: [{
+                type: 'pie',
+                name: 'Browser share',
+                innerSize: '50%',
+                data: data
+            }]
+        });
+    })
 
 }
 
