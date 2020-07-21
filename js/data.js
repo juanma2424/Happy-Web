@@ -40,11 +40,11 @@ Highcharts.getJSON(FpathMap, function (data) {
                 point: {
                     events: {
                         select: function () {
-                            var text = 'Selecteeed ' + this.code3+ ' (' + this.value + '/km²)',
+                            var text = '',
                                 chart = this.series.chart;
                                 pData = this.name;
                                 pDataScore = this.value;
-                                lol();
+                                face();
                             if (!chart.selectedLabel) {
                                 chart.selectedLabel = chart.renderer.label(text, 0, 320)
                                     .add();
@@ -55,7 +55,7 @@ Highcharts.getJSON(FpathMap, function (data) {
                             }
                         },
                         unselect: function () {
-                            var text = 'Unselected ' + this.name + ' (' + this.value + '/km²)',
+                            var text = '',
                                 chart = this.series.chart;
                             if (!chart.unselectedLabel) {
                                 chart.unselectedLabel = chart.renderer.label(text, 0, 300)
@@ -325,11 +325,11 @@ slider.oninput = function () {
                     point: {
                         events: {
                             select: function () {
-                                var text = 'Selecteeed ' + this.code3+ ' (' + this.value + '/km²)',
+                                var text = '',
                                     chart = this.series.chart;
                                     pData = this.name;
                                     pDataScore = this.value;
-                                    lol();
+                                    face();
                                 if (!chart.selectedLabel) {
                                     chart.selectedLabel = chart.renderer.label(text, 0, 320)
                                         .add();
@@ -340,7 +340,7 @@ slider.oninput = function () {
                                 }
                             },
                             unselect: function () {
-                                var text = 'Unselected ' + this.name + ' (' + this.value + '/km²)',
+                                var text = '',
                                     chart = this.series.chart;
                                 if (!chart.unselectedLabel) {
                                     chart.unselectedLabel = chart.renderer.label(text, 0, 300)
@@ -527,7 +527,7 @@ slider.oninput = function () {
 
 }
 
-function lol() {
+function face() {
     var b = parseInt(pDataScore);
     var rango = b;
 
